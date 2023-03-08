@@ -6,8 +6,8 @@ const mongoose = require("mongoose")
 // const { default: mongoose } = require("mongoose")
 const password = "BQrStvgn3gRZJwzf"
 // const mongoURI = "mongodb://127.0.0.1:27017/portfolio"
-// const uri = `mongodb+srv://aksr2003:${password}@portfolio.qrnpgxw.mongodb.net/`
-const uri = process.env.MONGO_URI
+const uri = `mongodb+srv://aksr2003:${password}@portfolio.qrnpgxw.mongodb.net/`
+// const uri = process.env.MONGO_URI
 // const urc = (uri + "/?retryWrites=true&w=majority").toString()
 console.log(typeof uri)
 // const uri = process.env.MONGOLAB_URI
