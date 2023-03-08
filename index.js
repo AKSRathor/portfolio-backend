@@ -6,7 +6,7 @@ connectToMongoose();
 
 const app = express()
 app.use(cors()) //to fix the cors error
-// const password = "BQrStvgn3gRZJwzf"
+
 const port = process.env.PORT || 5000
 
 app.use(express.json())
